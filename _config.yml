@@ -5,7 +5,7 @@ permalink:           pretty
 title:               Dutzu
 tagline:             Communication specialist interested in millennials, branding and events
 url:                 https://www.dutzu.eu
-#paginate:            1
+paginate:            1
 baseurl:             ""
 
 # Assets
