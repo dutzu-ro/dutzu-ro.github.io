@@ -1,0 +1,39 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Dutzu
+tagline:             Communication specialist interested in millennials, branding and events
+url:                 https://www.dutzu.eu
+#paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Dragos DUTU
+  url:               https://twitter.com/dragosdutu
+  email:             dragos@dutzu.eu
+  twitter:             dragosdutu
+  linkedin:            dragosdutu
+  instagram:           dragosdutu
+  keybase:             dragosdutu
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/dutzu-ro/dutzu-ro.github.io
+#google_analytics:
+#github:
+#dribbble:
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-gist

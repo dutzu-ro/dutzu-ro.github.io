@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="row">
+      <div class="large-12 large-centered columns">
+
+        <header class="masthead">
+          <img src="{{ site.baseurl }}/public/DragosDUTU.jpg" alt="Dutzu, Dragos DUTU">
+        </header>
+
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="large-6 large-offset-3 columns">
+
+      <div class="content-section">
+
+        <p>
+          Hello, there! I'm Dragoș DUȚU, but people call me Dutzu. I'm a Transylvanian-born communication specialist interested in millennials, branding and events. The type of guy you tell your life-story to, on a 3-hour plane ride.
+       </p>
+
+       <h3>Education</h3>
+       <p>
+         I studied Romanian and English Language and Literature and graduated with a BA in Communication and Public Relations with a dissertation that analysed how brand associations are formed in the fragrance industry.
+      </p>
+       <p>In the Erasmus mobility framework, I went to Belgium where I followed the International Business Management and the Module in Communication Management programmes of Artevelde University College Gent. </p>
+       <p>Right now I'm preparing my masters’ dissertation, focused on the coagulation of millennials around brand values.</p>
+
+
+      </p>
+
+      </div>
+
+      <main>
+        <h2>Latest Work</h2>
+        {% for post in site.posts %}
+           <div class="project-post">
+             <h3><a href="{{ post.link }}">{{ post.title }}</a></h3>
+             {{ post.content }}
+           </div>
+        {% endfor %}
+      </main>
+
+      <footer>
+        <h2>Résumé</h2>
+
+        <p>
+        This is a world of speed. Why don't you <a href="{{ site.baseurl }}/public/DragosDUTU-web_résumé-EN.pdf">download a résumé</a> ? .
+        </p>
+        <h2>Contact Me</h2>
+
+        <p>
+        I am open for new collaborations. You can send me an <a href="mailto:dragos@dutzu.eu?Subject=Hello,%20Dutzu!">email</a> (<a href="https://keybase.io/{{ site.keybase }}">PGP keys</a>), tweet <a href="https://twitter.com/{{ site.twitter }}">me</a> or connect with me on <a href="http://linkedin.com/in/{{ site.linkedin }}">LinkedIn</a>. If you're a more visual person, you can find me on <a href="http://instagram.com/{{ site.instagram }}">Instagram</a>.
+        </p>
+
+        <p class="copyright">
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+        </p>
+        <p class="logo">
+          <img src="{{ site.baseurl }}/public/dutzu-color_logo.svg" alt="Dutzu logo">
+        </p>
+      </footer>
+
+    </div>
+
+    <div class="large-2 large-offset-1 columns social">
+      <ul>
+        <li><a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="icon-linkedin-squared"></i></a></li>
+        <li><a href="https://instagram.com/{{ site.instagram }}"><i class="icon-instagram"></i></a></li>
+        <li><a href="https://twitter.com/{{ site.twitter }}"><i class="icon-twitter"></i></a></li>
+        <li><a href="https://keybase.io/{{ site.keybase }}"><i class="icon-key"></i></a></li>
+      </ul>
+    </div>
+
+  </div>
+
+    {% if site.google_analytics %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.google_analytics }}');
+    </script>
+    {% endif %}
+
+  </body>
+</html>

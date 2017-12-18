@@ -1,0 +1,39 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.png">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
+  <!-- Rich Snippets -->
+  <script type="application/ld+json">
+    { "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Dragoș DUȚU",
+      "additionalName": "Dutzu",
+      "jobTitle" : "Event planner",
+      "worksFor": "International Conference on Physics of Advanced Materials",
+      "url" : "https://www.dutzu.eu",
+      "sameAs" : [ "https://www.linkedin.com/in/dragosdutu",
+      "https://www.twitter.com/dragosdutu",
+      "https://www.instagram.com/dragosdutu",
+      "https://keybase.io/dragosdutu"],
+      "description" : "Dragoș DUȚU is a communication specialist interested in millennials, branding and events.",
+      "email": "dragos@dutzu.eu"
+    }
+   </script>
+  <!-- Relationship microformats -->
+  <link rel="me" href="https://twitter.com/dragosdutu" />
+  <link rel="me" href="https://linkedin.com/in/dragosdutu" />
+  <link rel="me" href="https://instagram.com/dragosdutu" />
+  <link rel="me" href="https://keybase.io/dragosdutu" />
+
+</head>
