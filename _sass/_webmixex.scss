@@ -1418,21 +1418,21 @@ button, .button {
   display: inline-block;
   padding: 1rem 2rem 1.0625rem 2rem;
   font-size: 1rem;
-  background-color: #008CBA;
-  border-color: #007095;
+  background-color: #d60c0c;
+  border-color: #a60909;
   color: #FFFFFF;
   transition: background-color 300ms ease-out;
 }
 
 button {
   &:hover, &:focus {
-    background-color: #007095;
+    background-color: #a60909;
   }
 }
 
 .button {
   &:hover, &:focus {
-    background-color: #007095;
+    background-color: #a60909;
   }
 }
 
@@ -1643,8 +1643,8 @@ button.round, .button.round {
 
 button {
   &.disabled, &[disabled] {
-    background-color: #008CBA;
-    border-color: #007095;
+    background-color: #d60c0c;
+    border-color: #a60909;
     color: #FFFFFF;
     box-shadow: none;
     cursor: default;
@@ -1654,8 +1654,8 @@ button {
 
 .button {
   &.disabled, &[disabled] {
-    background-color: #008CBA;
-    border-color: #007095;
+    background-color: #d60c0c;
+    border-color: #a60909;
     color: #FFFFFF;
     box-shadow: none;
     cursor: default;
@@ -1666,12 +1666,12 @@ button {
 button {
   &.disabled {
     &:hover, &:focus {
-      background-color: #007095;
+      background-color: #a60909;
     }
   }
   &[disabled] {
     &:hover, &:focus {
-      background-color: #007095;
+      background-color: #a60909;
     }
   }
 }
@@ -1679,12 +1679,12 @@ button {
 .button {
   &.disabled {
     &:hover, &:focus {
-      background-color: #007095;
+      background-color: #a60909;
     }
   }
   &[disabled] {
     &:hover, &:focus {
-      background-color: #007095;
+      background-color: #a60909;
     }
   }
 }
@@ -1718,12 +1718,12 @@ button {
 button {
   &.disabled {
     &:hover, &:focus {
-      background-color: #008CBA;
+      background-color: #d60c0c;
     }
   }
   &[disabled] {
     &:hover, &:focus {
-      background-color: #008CBA;
+      background-color: #d60c0c;
     }
   }
 }
@@ -1731,12 +1731,12 @@ button {
 .button {
   &.disabled {
     &:hover, &:focus {
-      background-color: #008CBA;
+      background-color: #d60c0c;
     }
   }
   &[disabled] {
     &:hover, &:focus {
-      background-color: #008CBA;
+      background-color: #d60c0c;
     }
   }
 }
@@ -3179,11 +3179,11 @@ meta.foundation-mq-topbar {
           font-size: 0.8125rem;
           padding-left: 0.9375rem;
           padding-right: 0.9375rem;
-          background-color: #008CBA;
-          border-color: #007095;
+          background-color: #d60c0c;
+          border-color: #a60909;
           color: #FFFFFF;
           &:hover, &:focus {
-            background-color: #007095;
+            background-color: #a60909;
           }
           &:hover, &:focus {
             color: #FFFFFF;
@@ -3249,11 +3249,11 @@ meta.foundation-mq-topbar {
         font-size: 0.8125rem;
         padding-left: 0.9375rem;
         padding-right: 0.9375rem;
-        background-color: #008CBA;
-        border-color: #007095;
+        background-color: #d60c0c;
+        border-color: #a60909;
         color: #FFFFFF;
         &:hover, &:focus {
-          background-color: #007095;
+          background-color: #a60909;
         }
         &:hover, &:focus {
           color: #FFFFFF;
@@ -3321,7 +3321,7 @@ meta.foundation-mq-topbar {
       background: #222222;
     }
     &.active > a {
-      background: #008CBA;
+      background: #d60c0c;
       color: #FFFFFF;
       &:hover {
         background: #0078a0;
@@ -3500,7 +3500,7 @@ meta.foundation-mq-topbar {
         }
       }
       &.active:not(.has-form) a:not(.button) {
-        background: #008CBA;
+        background: #d60c0c;
         color: #FFFFFF;
         line-height: 2.8125rem;
         padding: 0 0.9375rem;
@@ -3624,7 +3624,7 @@ meta.foundation-mq-topbar {
         color: #FFFFFF;
       }
       &:active > a {
-        background: #008CBA;
+        background: #d60c0c;
         color: #FFFFFF;
       }
     }
@@ -3654,7 +3654,7 @@ meta.foundation-mq-topbar {
   border-color: gainsboro;
   border-radius: 3px;
   > * {
-    color: #008CBA;
+    color: #d60c0c;
     float: left;
     font-size: 0.6875rem;
     line-height: 0.6875rem;
@@ -3664,7 +3664,7 @@ meta.foundation-mq-topbar {
       text-decoration: underline;
     }
     a {
-      color: #008CBA;
+      color: #d60c0c;
     }
     &.current {
       color: #333333;
@@ -3731,7 +3731,7 @@ meta.foundation-mq-topbar {
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   position: relative;
   transition: opacity 300ms ease-out;
-  background-color: #008CBA;
+  background-color: #d60c0c;
   border-color: #0078a0;
   color: #FFFFFF;
   .close {
@@ -4535,7 +4535,7 @@ meta.foundation-mq-topbar {
       line-height: 1.4;
     }
     a:not(.button) {
-      color: #008CBA;
+      color: #d60c0c;
       &:hover, &:focus {
         color: #0078a0;
       }
@@ -5078,13 +5078,13 @@ meta.foundation-mq-topbar {
     }
     a {
       &:hover {
-        background: #008CBA;
+        background: #d60c0c;
         label, i {
           color: #FFFFFF;
         }
       }
       &.active {
-        background: #008CBA;
+        background: #d60c0c;
         label, i {
           color: #FFFFFF;
         }
@@ -5553,19 +5553,19 @@ ul.pagination {
     }
     &.current {
       a, button {
-        background: #008CBA;
+        background: #d60c0c;
         color: #FFFFFF;
         cursor: default;
         font-weight: bold;
       }
       a {
         &:hover, &:focus {
-          background: #008CBA;
+          background: #d60c0c;
         }
       }
       button {
         &:hover, &:focus {
-          background: #008CBA;
+          background: #d60c0c;
         }
       }
     }
@@ -5596,7 +5596,7 @@ ul.pagination {
     font-weight: normal;
     margin: 0 0 0.4375rem 0;
     a:not(.button) {
-      color: #008CBA;
+      color: #d60c0c;
       display: block;
       margin: 0;
       padding: 0.4375rem 0.875rem;
@@ -5621,7 +5621,7 @@ ul.pagination {
       border-top-color: #e6e6e6;
     }
     &.heading {
-      color: #008CBA;
+      color: #d60c0c;
       font-size: 0.875rem;
       font-weight: bold;
       text-transform: uppercase;
@@ -5846,7 +5846,7 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, t
 /* Default Link Styles */
 
 a {
-  color: #008CBA;
+  color: #d60c0c;
   line-height: inherit;
   text-decoration: none;
   &:hover, &:focus {
@@ -6468,7 +6468,7 @@ blockquote {
   font-weight: bold;
   &:hover, &:focus {
     border-bottom: dotted 1px #003f54;
-    color: #008CBA;
+    color: #d60c0c;
   }
   &.tip-left, &.tip-right {
     float: none !important;
@@ -6514,7 +6514,7 @@ blockquote {
   }
   &.opened {
     border-bottom: dotted 1px #003f54 !important;
-    color: #008CBA !important;
+    color: #d60c0c !important;
   }
 }
 
@@ -6784,7 +6784,7 @@ blockquote {
   margin-bottom: 0.625rem;
   padding: 0.125rem;
   .meter {
-    background: #008CBA;
+    background: #d60c0c;
     display: block;
     height: 100%;
     float: left;
@@ -6881,7 +6881,7 @@ blockquote {
   }
   dt.active a, dd.active a, li.active a {
     border-radius: 3px;
-    background: #008CBA;
+    background: #d60c0c;
     color: #FFFFFF;
     cursor: default;
     font-weight: normal;
@@ -7084,7 +7084,7 @@ blockquote {
   white-space: nowrap;
   padding: 0.25rem 0.5rem 0.25rem;
   font-size: 0.6875rem;
-  background-color: #008CBA;
+  background-color: #d60c0c;
   color: #FFFFFF;
   &.radius {
     border-radius: 3px;
@@ -8309,7 +8309,7 @@ table {
     background: #FAFAFA;
     border-radius: 3px;
     .range-slider-handle {
-      background: #008CBA;
+      background: #d60c0c;
       border-radius: 3px;
       &:hover {
         background: #007ba4;
@@ -8320,7 +8320,7 @@ table {
     background: #FAFAFA;
     border-radius: 1000px;
     .range-slider-handle {
-      background: #008CBA;
+      background: #d60c0c;
       border-radius: 1000px;
       &:hover {
         background: #007ba4;
@@ -8333,7 +8333,7 @@ table {
     opacity: 0.7;
   }
   &.disabled .range-slider-handle, &[disabled] .range-slider-handle {
-    background: #008CBA;
+    background: #d60c0c;
     cursor: default;
     opacity: 0.7;
   }
@@ -8362,7 +8362,7 @@ table {
   z-index: 1;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-  background: #008CBA;
+  background: #d60c0c;
   &:hover {
     background: #007ba4;
   }
@@ -8846,7 +8846,7 @@ table {
     transform: translate3d(0, 0, 0);
   }
   input:checked + label {
-    background: #008CBA;
+    background: #d60c0c;
     &:after {
       left: 2.25rem;
     }
@@ -8870,7 +8870,7 @@ table {
     }
   }
   input:checked + label {
-    background: #008CBA;
+    background: #d60c0c;
   }
   &.large {
     label {
