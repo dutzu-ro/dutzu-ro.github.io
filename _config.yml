@@ -18,13 +18,10 @@ sass:
 # About/contact
 author:
   name:              Dragos DUTU
+  url:               http://linkedin.com/in/dragosdutu
+  url:               https://instagram.com/dragosdutu
   url:               https://twitter.com/dragosdutu
   email:             dragos@dutzu.eu
-  twitter:             dragosdutu
-  linkedin:            dragosdutu
-  instagram:           dragosdutu
-  keybase:             dragosdutu
-
 # Custom vars
 version:             1.0.0
 github:
