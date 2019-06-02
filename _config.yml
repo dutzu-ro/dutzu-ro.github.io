@@ -3,7 +3,7 @@ permalink:           pretty
 
 # Setup
 title:               Dragos DUTU
-tagline:             Communication specialist interested in IT, branding and millennials
+tagline:             Communication specialist interested in branding, millennials and IT
 url:                 https://www.dutzu.eu
 paginate:            1
 baseurl:             ""
@@ -18,9 +18,8 @@ sass:
 # About/contact
 author:
   name:              Dragos DUTU
-  url:               http://linkedin.com/in/dragosdutu
-  url:               https://instagram.com/dragosdutu
-  email:             dragos@dutzu.eu
+  url:               http://linkedin.com/in/dragosdutu               
+  email:             info@dutzu.eu
 # Custom vars
 version:             1.0.0
 github:
